@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_excel(r"E:\LANGUAGE\PYTHON\dự báo phụ tải\thuc hanh\data_phutai_16_04.xlsx")
+df = pd.read_excel(r"E:\LANGUAGE\PYTHON\du bao phu tai\thuc hanh\data_phutai_16_04.xlsx")
 
 # Đổi tên các cột cho khớp với phần code bên dưới (Tránh lỗi KeyError)
 df = df.rename(columns={'Time': 'Timestamp', 'temperature': 'Temperature', 'load': 'Load'})
